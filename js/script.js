@@ -26,7 +26,7 @@
     let operacion;
 
     // campo de resultado
-    let resultado = [];
+
     resultado = document.getElementById('resultado');
     console.log(resultado.values)
 
@@ -83,7 +83,6 @@
     // funcion su
 
     suma.addEventListener('click', function() {
-
             operandoa = resultado.textContent;
             operacion = "+";
             limpiar();
